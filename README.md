@@ -1,6 +1,7 @@
 # go-get-release
 
 ## Usage
+```shell
 go-get-release fetches all assets from a Github release tag.
 
 Usage of go-get-release:
@@ -11,7 +12,8 @@ Usage of go-get-release:
   -tag string
     	Release tag
   -token string
-    	Auth token, overrides env var GITHUB_AUTH_TOKEN
+    	Auth token, overrides env var $GITHUB_AUTH_TOKEN
+```
 
 ## Docker
 ```shell
