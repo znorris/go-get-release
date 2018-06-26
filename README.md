@@ -21,6 +21,10 @@ Usage of go-get-release:
 $ docker build -t znorris/go-get-release .
 
 # Run container
-$ docker run --rm -v /tmp/foo:/tmp/downloads znorris/go-get-release -owner=ethereum -repository=mist -tag=v0.10.0
+$ docker run --rm -v /tmp/foo:/tmp/downloads znorris/go-get-release -owner=znorris -repository=go-get-release -tag=v0.1.0-alpha
+
 # Assets will be in /tmp/foo on local machine
+$ ls -l /tmp/foo
+total 14384
+-rw-r--r--  1 user  wheel  6667852 Jun 26 09:56 go-get-release-linux-amd-64
 ```
